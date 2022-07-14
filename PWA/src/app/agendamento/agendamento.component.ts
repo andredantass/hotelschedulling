@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import Swal from 'sweetalert2';
 import { Clientes } from './model/Clientes';
+import { SchedullingService } from '../../services/schedulling.service'; 
+import { SharedDataService } from 'src/app.commons/SharedDataService.service';
 
 @Component({
   selector: 'app-agendamento',
@@ -13,7 +15,7 @@ export class AgendamentoComponent implements OnInit {
   lstAgendamentos: Clientes[] = [];
 
 
-  constructor(private fb : FormBuilder) {
+  constructor(private fb : FormBuilder, private schedullingService:SchedullingService, private sharedDataService : SharedDataService) {
     this.criarForm();
   }
 
@@ -22,9 +24,9 @@ export class AgendamentoComponent implements OnInit {
   }
   criarForm(){
     this.agendamentoForm = this.fb.group({
-      txtNomeCliente: ['',Validators.required],
-      start: ['', Validators.required],
-      end: ['', Validators.required]
+      Name: ['',Validators.required],
+      BeginDate: ['', Validators.required],
+      EndDate: ['', Validators.required]
     })
     
   }
@@ -38,14 +40,32 @@ export class AgendamentoComponent implements OnInit {
       showConfirmButton: false,
       timer: 1500
     }).then((result)=>{
+        this.loadSchedule();
         this.lstAgendamentos.push(this.agendamentoForm.value);
-        console.log(this.lstAgendamentos);
-        this.agendamentoForm.get('txtNomeCliente').setValue('');
-        this.agendamentoForm.get('start').setValue('');
-        this.agendamentoForm.get('end').setValue('');
-        this.agendamentoForm.setErrors(null);
-      
+        this.agendamentoForm.get('Name').setValue('');
+        this.agendamentoForm.get('BeginDate').setValue('');
+        this.agendamentoForm.get('EndDate').setValue('');
     })
+  }
+
+  loadSchedule(): void {
+    const ScheduleModel: Clientes =
+    {
+      Name: this.agendamentoForm.get('Name').value,
+      BeginDate: this.agendamentoForm.get('BeginDate').value,
+      EndDate: this.agendamentoForm.get('EndDate').value
+    };
+
+
+  
+
+    this.schedullingService.setSchedule(ScheduleModel)
+      .subscribe((result) => {
+        if (result.data.length > 0) {
+          this.sharedDataService.passCustomerPolicyData(result.data);
+        }
+      });
+
   }
 
   

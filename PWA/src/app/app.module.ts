@@ -9,6 +9,8 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatNativeDateModule } from '@angular/material/core';
 import { GridAgendamentosComponent } from './agendamento/grid-agendamentos/grid-agendamentos.component';
+import { HttpClientModule } from '@angular/common/http';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,8 @@ import { GridAgendamentosComponent } from './agendamento/grid-agendamentos/grid-
     BrowserAnimationsModule,
     MatDatepickerModule,
     MatFormFieldModule,
+    RouterModule,
+    HttpClientModule,
     MatNativeDateModule,
   ],
   providers: [],
