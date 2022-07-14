@@ -1,0 +1,15 @@
+C:\Users\Admin\source\repos\HotelScheduleRoom.API\HotelScheduleRoom.Service\bin\Debug\net5.0\HotelScheduleRoom.Service.deps.json
+C:\Users\Admin\source\repos\HotelScheduleRoom.API\HotelScheduleRoom.Service\bin\Debug\net5.0\HotelScheduleRoom.Service.dll
+C:\Users\Admin\source\repos\HotelScheduleRoom.API\HotelScheduleRoom.Service\bin\Debug\net5.0\ref\HotelScheduleRoom.Service.dll
+C:\Users\Admin\source\repos\HotelScheduleRoom.API\HotelScheduleRoom.Service\bin\Debug\net5.0\HotelScheduleRoom.Service.pdb
+C:\Users\Admin\source\repos\HotelScheduleRoom.API\HotelScheduleRoom.Service\obj\Debug\net5.0\HotelScheduleRoom.Service.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\HotelScheduleRoom.API\HotelScheduleRoom.Service\obj\Debug\net5.0\HotelScheduleRoom.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\HotelScheduleRoom.API\HotelScheduleRoom.Service\obj\Debug\net5.0\HotelScheduleRoom.Service.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\HotelScheduleRoom.API\HotelScheduleRoom.Service\obj\Debug\net5.0\HotelScheduleRoom.Service.AssemblyInfo.cs
+C:\Users\Admin\source\repos\HotelScheduleRoom.API\HotelScheduleRoom.Service\obj\Debug\net5.0\HotelScheduleRoom.Service.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\HotelScheduleRoom.API\HotelScheduleRoom.Service\obj\Debug\net5.0\HotelScheduleRoom.Service.dll
+C:\Users\Admin\source\repos\HotelScheduleRoom.API\HotelScheduleRoom.Service\obj\Debug\net5.0\ref\HotelScheduleRoom.Service.dll
+C:\Users\Admin\source\repos\HotelScheduleRoom.API\HotelScheduleRoom.Service\obj\Debug\net5.0\HotelScheduleRoom.Service.pdb
+C:\Users\Admin\source\repos\HotelScheduleRoom.API\HotelScheduleRoom.Service\bin\Debug\net5.0\HotelScheduleRoom.Domain.dll
+C:\Users\Admin\source\repos\HotelScheduleRoom.API\HotelScheduleRoom.Service\bin\Debug\net5.0\HotelScheduleRoom.Domain.pdb
+C:\Users\Admin\source\repos\HotelScheduleRoom.API\HotelScheduleRoom.Service\obj\Debug\net5.0\HotelScheduleRoom.Service.csproj.CopyComplete

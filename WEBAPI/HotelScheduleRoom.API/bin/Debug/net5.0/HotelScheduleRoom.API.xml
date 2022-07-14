@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HotelScheduleRoom.API</name>
+    </assembly>
+    <members>
+        <member name="M:HotelScheduleRoom.API.Controllers.ReservationController.Post(HotelScheduleRoom.Application.IReservationFacade,HotelScheduleRoom.Domain.DTO.ReservationRequest)">
+            <summary>
+            insert one reservation
+            </summary>
+            <returns>t</returns>
+            <response code="200">Success</response>
+        </member>
+        <member name="M:HotelScheduleRoom.API.Controllers.ReservationController.GetAll(HotelScheduleRoom.Application.IReservationFacade)">
+            <summary>
+            List all reservations
+            </summary>
+            <returns>t</returns>
+            <response code="200">Success</response>
+        </member>
+        <member name="M:HotelScheduleRoom.API.Controllers.ReservationController.Get(HotelScheduleRoom.Application.IReservationFacade,System.Int32)">
+            <summary>
+            Get a specific reservation
+            </summary>
+            <returns>t</returns>
+            <response code="200">Success</response>
+        </member>
+        <member name="M:HotelScheduleRoom.API.Controllers.ReservationController.Delete(HotelScheduleRoom.Application.IReservationFacade,System.Int32)">
+            <summary>
+            Delete a specific reservation
+            </summary>
+            <returns>t</returns>
+            <response code="200">Success</response>
+        </member>
+        <member name="M:HotelScheduleRoom.API.Controllers.ReservationController.Update(HotelScheduleRoom.Application.IReservationFacade,HotelScheduleRoom.Domain.DTO.ReservationRequest,System.Int32)">
+            <summary>
+            update a specific reservation
+            </summary>
+            <returns>t</returns>
+            <response code="200">Success</response>
+        </member>
+    </members>
+</doc>

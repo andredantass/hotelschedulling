@@ -1,0 +1,12 @@
+C:\Users\Admin\source\repos\HotelScheduleRoom.API\HotelScheduleRoom.Swagger\bin\Debug\net5.0\HotelScheduleRoom.Swagger.deps.json
+C:\Users\Admin\source\repos\HotelScheduleRoom.API\HotelScheduleRoom.Swagger\bin\Debug\net5.0\HotelScheduleRoom.Swagger.dll
+C:\Users\Admin\source\repos\HotelScheduleRoom.API\HotelScheduleRoom.Swagger\bin\Debug\net5.0\ref\HotelScheduleRoom.Swagger.dll
+C:\Users\Admin\source\repos\HotelScheduleRoom.API\HotelScheduleRoom.Swagger\bin\Debug\net5.0\HotelScheduleRoom.Swagger.pdb
+C:\Users\Admin\source\repos\HotelScheduleRoom.API\HotelScheduleRoom.Swagger\obj\Debug\net5.0\HotelScheduleRoom.Swagger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\HotelScheduleRoom.API\HotelScheduleRoom.Swagger\obj\Debug\net5.0\HotelScheduleRoom.Swagger.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\HotelScheduleRoom.API\HotelScheduleRoom.Swagger\obj\Debug\net5.0\HotelScheduleRoom.Swagger.AssemblyInfo.cs
+C:\Users\Admin\source\repos\HotelScheduleRoom.API\HotelScheduleRoom.Swagger\obj\Debug\net5.0\HotelScheduleRoom.Swagger.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\HotelScheduleRoom.API\HotelScheduleRoom.Swagger\obj\Debug\net5.0\HotelScheduleRoom.Swagger.dll
+C:\Users\Admin\source\repos\HotelScheduleRoom.API\HotelScheduleRoom.Swagger\obj\Debug\net5.0\ref\HotelScheduleRoom.Swagger.dll
+C:\Users\Admin\source\repos\HotelScheduleRoom.API\HotelScheduleRoom.Swagger\obj\Debug\net5.0\HotelScheduleRoom.Swagger.pdb
+C:\Users\Admin\source\repos\HotelScheduleRoom.API\HotelScheduleRoom.Swagger\obj\Debug\net5.0\HotelScheduleRoom.Swagger.csproj.AssemblyReference.cache

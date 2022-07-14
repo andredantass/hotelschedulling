@@ -1,0 +1,45 @@
+<div class="container mt-5">
+    <div class="row">
+        <h1>Agende sua Hospedagem:</h1>
+    </div>
+
+    <div class="row">
+        
+        <div class="col-md-5 mt-2">
+
+            <form [formGroup]="agendamentoForm" (submit)="agendaSubmit()">
+                <div class="row mb-1">
+                    <div class="form-group">
+                        <label for="nomeCliente">Nome: </label>
+                        <input type="text" class="form-control" id="nomeCliente" formControlName="txtNomeCliente">
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-6">
+                        <label for="picker">Data de Entrada e Saida: </label>
+                        <mat-form-field appearance="outline">
+                            <mat-label></mat-label>
+                            <mat-date-range-input id="picker" [rangePicker]="picker" >
+                                <input matStartDate formControlName="start" placeholder="Data Inicial">
+                                <input matEndDate formControlName="end" placeholder="Data Final">
+                            </mat-date-range-input>
+                            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                            <mat-date-range-picker #picker></mat-date-range-picker>
+                        </mat-form-field>
+                    </div>
+                </div>
+
+                <button [disabled]="!agendamentoForm.valid" type="submit" class="btn btn-success mb-3">Agendar</button>
+            </form>
+        </div>
+        
+        <div class=" painel col-md-6 col-sm-12 ms-auto">
+            <div class="container p-4 ">
+                <h2>Lista de Agendamentos:</h2>
+                <app-grid-agendamentos [lstAgendamento]="lstAgendamentos"></app-grid-agendamentos>
+            </div>
+        </div>
+
+    </div>
+</div>

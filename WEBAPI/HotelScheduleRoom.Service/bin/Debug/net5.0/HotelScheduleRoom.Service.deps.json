@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "HotelScheduleRoom.Service/1.0.0": {
+        "dependencies": {
+          "HotelScheduleRoom.Domain": "1.0.0"
+        },
+        "runtime": {
+          "HotelScheduleRoom.Service.dll": {}
+        }
+      },
+      "HotelScheduleRoom.Domain/1.0.0": {
+        "runtime": {
+          "HotelScheduleRoom.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HotelScheduleRoom.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HotelScheduleRoom.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

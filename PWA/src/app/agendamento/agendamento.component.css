@@ -1,0 +1,9 @@
+.painel{
+    display: block;
+    border: 3px solid #a6a6a6;
+    border-radius: 10px;
+}
+
+#picker{
+    height: 50px !important;
+}
