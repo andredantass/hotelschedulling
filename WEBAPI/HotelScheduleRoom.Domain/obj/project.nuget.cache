@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "As9Pb/pTsvrmzoM3mon4yxnz5exJrnhOBPBfZlIzJxcL1dzSDROpZTVcOnnh08T+UuURtKyftFKKEMtBvoBlQg==",
+  "dgSpecHash": "7QLajA/6bg+mvqQGm9NBfw71kN1jsrCwaSCIRQaxnVyKGDwfTtiCRUuj0SYnxLqFGrcKVJ9I//JPLaXm315prw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Downloads\\APISchedulerRoom\\HotelScheduleRoom.API\\HotelScheduleRoom.Domain\\HotelScheduleRoom.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Escritório\\Documents\\Projetos\\HotelSchedulling\\hotelschedulling\\WEBAPI\\HotelScheduleRoom.Domain\\HotelScheduleRoom.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

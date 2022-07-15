@@ -10,3 +10,15 @@ C:\Users\Admin\Downloads\APISchedulerRoom\HotelScheduleRoom.API\HotelScheduleRoo
 C:\Users\Admin\Downloads\APISchedulerRoom\HotelScheduleRoom.API\HotelScheduleRoom.Domain\obj\Debug\net5.0\refint\HotelScheduleRoom.Domain.dll
 C:\Users\Admin\Downloads\APISchedulerRoom\HotelScheduleRoom.API\HotelScheduleRoom.Domain\obj\Debug\net5.0\HotelScheduleRoom.Domain.pdb
 C:\Users\Admin\Downloads\APISchedulerRoom\HotelScheduleRoom.API\HotelScheduleRoom.Domain\obj\Debug\net5.0\ref\HotelScheduleRoom.Domain.dll
+C:\Users\Escritório\Documents\Projetos\HotelSchedulling\hotelschedulling\WEBAPI\HotelScheduleRoom.Domain\bin\Debug\net5.0\HotelScheduleRoom.Domain.deps.json
+C:\Users\Escritório\Documents\Projetos\HotelSchedulling\hotelschedulling\WEBAPI\HotelScheduleRoom.Domain\bin\Debug\net5.0\HotelScheduleRoom.Domain.dll
+C:\Users\Escritório\Documents\Projetos\HotelSchedulling\hotelschedulling\WEBAPI\HotelScheduleRoom.Domain\bin\Debug\net5.0\ref\HotelScheduleRoom.Domain.dll
+C:\Users\Escritório\Documents\Projetos\HotelSchedulling\hotelschedulling\WEBAPI\HotelScheduleRoom.Domain\bin\Debug\net5.0\HotelScheduleRoom.Domain.pdb
+C:\Users\Escritório\Documents\Projetos\HotelSchedulling\hotelschedulling\WEBAPI\HotelScheduleRoom.Domain\obj\Debug\net5.0\HotelScheduleRoom.Domain.csproj.AssemblyReference.cache
+C:\Users\Escritório\Documents\Projetos\HotelSchedulling\hotelschedulling\WEBAPI\HotelScheduleRoom.Domain\obj\Debug\net5.0\HotelScheduleRoom.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Escritório\Documents\Projetos\HotelSchedulling\hotelschedulling\WEBAPI\HotelScheduleRoom.Domain\obj\Debug\net5.0\HotelScheduleRoom.Domain.AssemblyInfoInputs.cache
+C:\Users\Escritório\Documents\Projetos\HotelSchedulling\hotelschedulling\WEBAPI\HotelScheduleRoom.Domain\obj\Debug\net5.0\HotelScheduleRoom.Domain.AssemblyInfo.cs
+C:\Users\Escritório\Documents\Projetos\HotelSchedulling\hotelschedulling\WEBAPI\HotelScheduleRoom.Domain\obj\Debug\net5.0\HotelScheduleRoom.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Escritório\Documents\Projetos\HotelSchedulling\hotelschedulling\WEBAPI\HotelScheduleRoom.Domain\obj\Debug\net5.0\HotelScheduleRoom.Domain.dll
+C:\Users\Escritório\Documents\Projetos\HotelSchedulling\hotelschedulling\WEBAPI\HotelScheduleRoom.Domain\obj\Debug\net5.0\ref\HotelScheduleRoom.Domain.dll
+C:\Users\Escritório\Documents\Projetos\HotelSchedulling\hotelschedulling\WEBAPI\HotelScheduleRoom.Domain\obj\Debug\net5.0\HotelScheduleRoom.Domain.pdb

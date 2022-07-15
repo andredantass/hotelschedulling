@@ -2,10 +2,10 @@
     <thead>
         <tr>
             <th scope="col">#</th>
-            <th scope="col">Nome</th>
-            <th scope="col">Entrada</th>
-            <th scope="col">Saída</th>
-            <th scope="col">Opções</th>
+            <th scope="col">Name</th>
+            <th scope="col">Begin Date</th>
+            <th scope="col">End Date</th>
+            <th scope="col">Options</th>
         </tr>
     </thead>
     <tbody>
@@ -16,9 +16,9 @@
             <td>{{item.endDate | date:'dd/MM/yyyy'}}</td>
 
             <td>
-                <div class="btn-group">
-                    <button class="btn btn-sm btn-primary" (click)="addNewItem(item)">Editar</button>
-                    <button class="btn btn-sm btn-danger" (click)="deleteItem(item.id)">Excluir</button>
+                <div class="btn-toolbar ">
+                    <button class="btn btn-sm btn-primary me-2" (click)="addNewItem(item)">Edit</button>
+                    <button class="btn btn-sm btn-danger" (click)="deleteItem(item.id)">Cancel</button>
                 </div>
             </td>
     </tbody>

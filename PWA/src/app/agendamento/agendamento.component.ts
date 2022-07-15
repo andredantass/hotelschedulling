@@ -67,7 +67,7 @@ export class AgendamentoComponent implements OnInit {
       else{
         Swal.fire({
           icon: 'success',
-          title: "Rervation updated successfully!",
+          title: result.msg,
           showConfirmButton: true
         }).then((result) => {
           this.childGrid.loadReservations();
@@ -102,7 +102,7 @@ export class AgendamentoComponent implements OnInit {
       else{
         Swal.fire({
           icon: 'success',
-          title: "Rervation complete!",
+          title: "Reservation complete!",
           showConfirmButton: true
         }).then((result)=>{
           this.childGrid.loadReservations();

@@ -9,7 +9,7 @@ namespace HotelScheduleRoom.Service
         protected ReservationMsg VerifyReservationRules(ReservationRequest obj)
         {
             
-            if (obj.BeginDate.Date < DateTime.Now.Date || obj.EndDate.Date <= DateTime.Now.Date)
+            if (obj.BeginDate.Date < DateTime.Now.Date || obj.EndDate.Date < DateTime.Now.Date)
                 return ReservationMsg.RetroactiveDateNotAllow;
             if (obj.EndDate.Date < obj.BeginDate.Date)
                 return ReservationMsg.StartDateNotMoreEndDate;
