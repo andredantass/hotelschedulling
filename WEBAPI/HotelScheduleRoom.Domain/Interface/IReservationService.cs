@@ -14,7 +14,7 @@ namespace HotelScheduleRoom.Domain.Interface
         Task<List<ReservationEnt>> GetAll();
         Task<ReservationEnt> Get(int id);
         Task<int> Delete(int id);
-        Task<string> Update(ReservationRequest obj, int id);
+        Task<string> Update(ReservationRequest obj);
 
     }
 }

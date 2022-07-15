@@ -43,7 +43,7 @@ namespace HotelScheduleRoom.Service
                 return Util.TreatReturnMsg(result);
 
 
-            if (!VerifyRoomAvailability(obj, null))
+            if (!VerifyRoomAvailability(obj))
             {
                 return Util.TreatReturnMsg(ReservationMsg.NotAvailable);
             }
@@ -59,11 +59,11 @@ namespace HotelScheduleRoom.Service
             return "";
         }
 
-        public async Task<string> Update(ReservationRequest obj, int id)
+        public async Task<string> Update(ReservationRequest obj)
         {
             var result = ReservationMsg.None;
 
-            if (!VerifyRoomAvailability(obj, id))
+            if (!VerifyRoomAvailability(obj))
             {
                 return Util.TreatReturnMsg(ReservationMsg.NotAvailable);
             }
@@ -75,7 +75,7 @@ namespace HotelScheduleRoom.Service
 
             var reservationEnt = new ReservationEnt
             {
-                id = id,
+                id = obj.id,
                 BeginDate = obj.BeginDate.Date,
                 EndDate = obj.EndDate.Date,
                 Name = obj.Name
@@ -83,12 +83,12 @@ namespace HotelScheduleRoom.Service
             await _reservationRepository.Update(reservationEnt);
             return "";
         }
-        private bool VerifyRoomAvailability(ReservationRequest obj, int? id)
+        private bool VerifyRoomAvailability(ReservationRequest obj)
         {
             IEnumerable<ReservationEnt> lstReservation;
 
-            if (id != null)
-                lstReservation = GetAll().Result.Where(x => !x.id.Equals(id));
+            if (obj.id != -1)
+                lstReservation = GetAll().Result.Where(x => !x.id.Equals(obj.id));
             else
                 lstReservation = GetAll().Result.ToArray();
 

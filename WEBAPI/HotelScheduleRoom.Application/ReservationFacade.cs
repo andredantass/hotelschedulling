@@ -35,9 +35,9 @@ namespace HotelScheduleRoom.Application
             return _reservationService.Delete(id);
         }
 
-        public Task<string> UpdateReservation(ReservationRequest obj, int id)
+        public Task<string> UpdateReservation(ReservationRequest obj)
         {
-            return _reservationService.Update(obj, id);
+            return _reservationService.Update(obj);
         }
     }
 }

@@ -12,6 +12,6 @@ namespace HotelScheduleRoom.Application
         Task<List<ReservationEnt>> GetReservations();
         Task<ReservationEnt> GetReservation(int id);
         Task<int> DeleteReservation(int id);
-        Task<string> UpdateReservation(ReservationRequest obj, int id);
+        Task<string> UpdateReservation(ReservationRequest obj);
     }
 }

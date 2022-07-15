@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\HotelScheduleRoom.API\\HotelScheduleRoom.Swagger\\HotelScheduleRoom.Swagger.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Downloads\\APISchedulerRoom\\HotelScheduleRoom.API\\HotelScheduleRoom.Swagger\\HotelScheduleRoom.Swagger.csproj",
       "projectName": "HotelScheduleRoom.Swagger",
-      "projectPath": "C:\\Users\\Admin\\source\\repos\\HotelScheduleRoom.API\\HotelScheduleRoom.Swagger\\HotelScheduleRoom.Swagger.csproj",
+      "projectPath": "C:\\Users\\Admin\\Downloads\\APISchedulerRoom\\HotelScheduleRoom.API\\HotelScheduleRoom.Swagger\\HotelScheduleRoom.Swagger.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\source\\repos\\HotelScheduleRoom.API\\HotelScheduleRoom.Swagger\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Downloads\\APISchedulerRoom\\HotelScheduleRoom.API\\HotelScheduleRoom.Swagger\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

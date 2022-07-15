@@ -31,9 +31,9 @@ namespace HotelScheduleRoom.API.Controllers
         {
             var response = await reservationFacade.InsertReservation(reservationRequest);
             if (response != "")
-                return NotFound(response);
+                return Ok(new { msg = response, error = 1 });
             else
-                return Ok($"Reservation confirmed");
+                return Ok(new { msg = response, error = 0 });
 
         }
 
@@ -43,13 +43,11 @@ namespace HotelScheduleRoom.API.Controllers
         /// <returns>t</returns>
         /// <response code="200">Success</response>
         [HttpGet()]
-        public async Task<ActionResult<List<ReservationEnt>>> GetAll([FromServices] IReservationFacade reservationFacade)
+        public async Task<List<ReservationEnt>> GetAll([FromServices] IReservationFacade reservationFacade)
         {
             var response = await reservationFacade.GetReservations();
-            if (response == null)
-                return NotFound("No Reservations founded!");
-            else
-                return Ok(response);
+            return response;
+       
         }
 
         /// <summary>
@@ -62,9 +60,9 @@ namespace HotelScheduleRoom.API.Controllers
         {
             var response = await reservationFacade.GetReservation(id);
             if (response == null)
-                return NotFound("Reservation searched not founded!");
+                return Ok(new { msg = "Reservation searched not founded!", error = 1 });
             else
-                return Ok(response);
+                return Ok(new { msg = response, error = 0 });
         }
 
         /// <summary>
@@ -73,16 +71,10 @@ namespace HotelScheduleRoom.API.Controllers
         /// <returns>t</returns>
         /// <response code="200">Success</response>
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete([FromServices] IReservationFacade reservationFacade, int id)
+        public  Task<int> Delete([FromServices] IReservationFacade reservationFacade, int id)
         {
-            var response = await reservationFacade.DeleteReservation(id);
-
-            if (response == -1)
-                return NotFound("An error occured!");
-            else
-                return Ok($"Reservation deleted!");
-
-
+            var response =  reservationFacade.DeleteReservation(id);
+            return response;
         }
 
         /// <summary>
@@ -91,15 +83,15 @@ namespace HotelScheduleRoom.API.Controllers
         /// <returns>t</returns>
         /// <response code="200">Success</response>
         [HttpPut]
-        public async Task<IActionResult> Update([FromServices] IReservationFacade reservationFacade, ReservationRequest reservationRequest, int id)
+        public async Task<IActionResult> Update([FromServices] IReservationFacade reservationFacade, ReservationRequest reservationRequest)
         {
 
-            var response = await reservationFacade.UpdateReservation(reservationRequest,id);
+            var response = await reservationFacade.UpdateReservation(reservationRequest);
 
             if (response != "")
-                return NotFound(response);
+                return Ok(new { msg = response, error = 1 });
             else
-                return Ok($"Reservation updated successfully!");
+                return Ok(new { msg = "Reservation updated successfully!" , error = 0});
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HotelScheduleRoom.Domain.DTO
 {
-    public class ReservationRequest
+    public class ReservationRequest : BaseRequest
     {
 
         public string Name { get; set; }

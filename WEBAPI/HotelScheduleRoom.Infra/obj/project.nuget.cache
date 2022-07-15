@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u4U9jNhkPm673dS0CxuuGL6WuVlfnKIz413A+oKNUch980UVgQAp+/XhFFUiUCSYeZFZE2w1zhRBR3+elOXqAg==",
+  "dgSpecHash": "C3yA2IkD3mAvw6P/KK+yUEaUayxXWOKpecMowIoBX7keLq49hA82/N6DtLt6BVkpIcTd8Xo40XzrMeTeOeKi2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\HotelScheduleRoom.API\\HotelScheduleRoom.Infra\\HotelScheduleRoom.Infra.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Downloads\\APISchedulerRoom\\HotelScheduleRoom.API\\HotelScheduleRoom.Infra\\HotelScheduleRoom.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.17\\microsoft.data.sqlite.core.5.0.17.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
