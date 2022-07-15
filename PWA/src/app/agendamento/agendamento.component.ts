@@ -69,10 +69,14 @@ export class AgendamentoComponent implements OnInit {
           icon: 'success',
           title: "Rervation updated successfully!",
           showConfirmButton: true
+        }).then((result) => {
+          this.childGrid.loadReservations();
+          
         })
+        
       }
     })
-    this.childGrid.loadReservations();
+    this.isUpdate=false;
   }
   agendaSubmit() {
 
@@ -100,6 +104,8 @@ export class AgendamentoComponent implements OnInit {
           icon: 'success',
           title: "Rervation complete!",
           showConfirmButton: true
+        }).then((result)=>{
+          this.childGrid.loadReservations();
         })
       }
     })
