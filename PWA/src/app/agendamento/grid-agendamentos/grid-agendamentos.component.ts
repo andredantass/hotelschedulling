@@ -36,12 +36,13 @@ export class GridAgendamentosComponent implements OnInit {
     this.reservation.cancel(index).subscribe((result) => {
       Swal.fire({
         icon: 'success',
-        title: 'Rervation cancel successfully!',
-        showConfirmButton: false,
-        timer: 1500
-      })
+        title: 'Rersevation cancel successfully!',
+        showConfirmButton: true
+      }).then((result)=>{
+    this.loadReservations();
+      
+    })
 
     })
-    this.loadReservations();
   }
 }

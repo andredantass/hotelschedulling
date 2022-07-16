@@ -13,6 +13,7 @@ C:\Users\Admin\Downloads\APISchedulerRoom\HotelScheduleRoom.API\HotelScheduleRoo
 C:\Users\Admin\Downloads\APISchedulerRoom\HotelScheduleRoom.API\HotelScheduleRoom.Service\obj\Debug\net5.0\refint\HotelScheduleRoom.Service.dll
 C:\Users\Admin\Downloads\APISchedulerRoom\HotelScheduleRoom.API\HotelScheduleRoom.Service\obj\Debug\net5.0\HotelScheduleRoom.Service.pdb
 C:\Users\Admin\Downloads\APISchedulerRoom\HotelScheduleRoom.API\HotelScheduleRoom.Service\obj\Debug\net5.0\ref\HotelScheduleRoom.Service.dll
+<<<<<<< HEAD
 C:\Users\Admin\Documents\Workspace\HotelSchedule\WEBAPI\HotelScheduleRoom.Service\bin\Debug\net5.0\HotelScheduleRoom.Service.deps.json
 C:\Users\Admin\Documents\Workspace\HotelSchedule\WEBAPI\HotelScheduleRoom.Service\bin\Debug\net5.0\HotelScheduleRoom.Service.dll
 C:\Users\Admin\Documents\Workspace\HotelSchedule\WEBAPI\HotelScheduleRoom.Service\bin\Debug\net5.0\HotelScheduleRoom.Service.pdb
@@ -28,3 +29,20 @@ C:\Users\Admin\Documents\Workspace\HotelSchedule\WEBAPI\HotelScheduleRoom.Servic
 C:\Users\Admin\Documents\Workspace\HotelSchedule\WEBAPI\HotelScheduleRoom.Service\obj\Debug\net5.0\refint\HotelScheduleRoom.Service.dll
 C:\Users\Admin\Documents\Workspace\HotelSchedule\WEBAPI\HotelScheduleRoom.Service\obj\Debug\net5.0\HotelScheduleRoom.Service.pdb
 C:\Users\Admin\Documents\Workspace\HotelSchedule\WEBAPI\HotelScheduleRoom.Service\obj\Debug\net5.0\ref\HotelScheduleRoom.Service.dll
+=======
+C:\Users\Escritório\Documents\Projetos\HotelSchedulling\hotelschedulling\WEBAPI\HotelScheduleRoom.Service\bin\Debug\net5.0\HotelScheduleRoom.Service.deps.json
+C:\Users\Escritório\Documents\Projetos\HotelSchedulling\hotelschedulling\WEBAPI\HotelScheduleRoom.Service\bin\Debug\net5.0\HotelScheduleRoom.Service.dll
+C:\Users\Escritório\Documents\Projetos\HotelSchedulling\hotelschedulling\WEBAPI\HotelScheduleRoom.Service\bin\Debug\net5.0\ref\HotelScheduleRoom.Service.dll
+C:\Users\Escritório\Documents\Projetos\HotelSchedulling\hotelschedulling\WEBAPI\HotelScheduleRoom.Service\bin\Debug\net5.0\HotelScheduleRoom.Service.pdb
+C:\Users\Escritório\Documents\Projetos\HotelSchedulling\hotelschedulling\WEBAPI\HotelScheduleRoom.Service\bin\Debug\net5.0\HotelScheduleRoom.Domain.dll
+C:\Users\Escritório\Documents\Projetos\HotelSchedulling\hotelschedulling\WEBAPI\HotelScheduleRoom.Service\bin\Debug\net5.0\HotelScheduleRoom.Domain.pdb
+C:\Users\Escritório\Documents\Projetos\HotelSchedulling\hotelschedulling\WEBAPI\HotelScheduleRoom.Service\obj\Debug\net5.0\HotelScheduleRoom.Service.csproj.AssemblyReference.cache
+C:\Users\Escritório\Documents\Projetos\HotelSchedulling\hotelschedulling\WEBAPI\HotelScheduleRoom.Service\obj\Debug\net5.0\HotelScheduleRoom.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Escritório\Documents\Projetos\HotelSchedulling\hotelschedulling\WEBAPI\HotelScheduleRoom.Service\obj\Debug\net5.0\HotelScheduleRoom.Service.AssemblyInfoInputs.cache
+C:\Users\Escritório\Documents\Projetos\HotelSchedulling\hotelschedulling\WEBAPI\HotelScheduleRoom.Service\obj\Debug\net5.0\HotelScheduleRoom.Service.AssemblyInfo.cs
+C:\Users\Escritório\Documents\Projetos\HotelSchedulling\hotelschedulling\WEBAPI\HotelScheduleRoom.Service\obj\Debug\net5.0\HotelScheduleRoom.Service.csproj.CoreCompileInputs.cache
+C:\Users\Escritório\Documents\Projetos\HotelSchedulling\hotelschedulling\WEBAPI\HotelScheduleRoom.Service\obj\Debug\net5.0\HotelScheduleRoom.Service.csproj.CopyComplete
+C:\Users\Escritório\Documents\Projetos\HotelSchedulling\hotelschedulling\WEBAPI\HotelScheduleRoom.Service\obj\Debug\net5.0\HotelScheduleRoom.Service.dll
+C:\Users\Escritório\Documents\Projetos\HotelSchedulling\hotelschedulling\WEBAPI\HotelScheduleRoom.Service\obj\Debug\net5.0\ref\HotelScheduleRoom.Service.dll
+C:\Users\Escritório\Documents\Projetos\HotelSchedulling\hotelschedulling\WEBAPI\HotelScheduleRoom.Service\obj\Debug\net5.0\HotelScheduleRoom.Service.pdb
+>>>>>>> 6a032006bfc23e6d7499cbf47db2983a4cd0a96b

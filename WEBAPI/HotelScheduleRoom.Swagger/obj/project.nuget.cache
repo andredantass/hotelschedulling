@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "PkvWu1K29/6JhdJzgUAbvyo3H6FTu8H+bxImqN5tTVw6PZGtDaxsFpU4QjkRtNz6YQaR4uMIE/C1vrhk/w83PA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\Documents\\Workspace\\HotelSchedule\\WEBAPI\\HotelScheduleRoom.Swagger\\HotelScheduleRoom.Swagger.csproj",
+=======
+  "dgSpecHash": "3TCJG626jPR9MkBz0c8JzzOwJc6nRv/wK+Axj/fP/ESpleYijD8/7mXmxABfdGgMlvkWSqI211dVTyoI9kByOA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Escritório\\Documents\\Projetos\\HotelSchedulling\\hotelschedulling\\WEBAPI\\HotelScheduleRoom.Swagger\\HotelScheduleRoom.Swagger.csproj",
+>>>>>>> 6a032006bfc23e6d7499cbf47db2983a4cd0a96b
   "expectedPackageFiles": [],
   "logs": []
 }
