@@ -1,6 +1,6 @@
 <div class="container mt-5">
     <div class="row">
-        <h1>Agende sua Hospedagem:</h1>
+        <h1>Book your Room</h1>
     </div>
 
     <div class="row">
@@ -10,14 +10,14 @@
             <form [formGroup]="agendamentoForm" (submit)="agendaSubmit()">
                 <div class="row mb-1">
                     <div class="form-group">
-                        <label for="nomeCliente">Nome: </label>
+                        <label for="nomeCliente">Name: </label>
                         <input type="text" class="form-control" id="nomeCliente" formControlName="txtNomeCliente">
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-6">
-                        <label for="picker">Data de Entrada e Saida: </label>
+                        <label for="picker">Begin End Dates: </label>
                         <mat-form-field appearance="outline">
                             <mat-label></mat-label>
                             <mat-date-range-input id="picker" [rangePicker]="picker">
@@ -30,8 +30,8 @@
                     </div>
                 </div>
 
-                <button [disabled]="!agendamentoForm.valid" type="submit" class="btn btn-success ">Agendar</button>
-                <button type="button" (click)="updateItem()" [disabled]="!isUpdate"  class="btn btn-success m-3">Atualizar</button>
+                <button [disabled]="!agendamentoForm.valid" type="submit" class="btn btn-success ">Book</button>
+                <button type="button" (click)="updateItem()" [disabled]="!isUpdate"  class="btn btn-success m-3">Update Book</button>
             </form>
                 
 
@@ -39,7 +39,7 @@
 
         <div class=" painel col-md-6 col-sm-12 ms-auto">
             <div class="container p-4 ">
-                <h2>Lista de Agendamentos:</h2>
+                <h2>Booked Guest List:</h2>
                 <app-grid-agendamentos (newItemEvent)='addItem($event)'></app-grid-agendamentos>
             </div>
         </div>

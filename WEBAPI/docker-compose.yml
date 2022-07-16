@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  hotelscheduleroom.api:
+    image: ${DOCKER_REGISTRY-}hotelscheduleroomapi
+    build:
+      context: .
+      dockerfile: HotelScheduleRoom.API\Dockerfile

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Downloads\\APISchedulerRoom\\HotelScheduleRoom.API\\HotelScheduleRoom.Domain\\HotelScheduleRoom.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Documents\\Workspace\\HotelSchedule\\WEBAPI\\HotelScheduleRoom.Domain\\HotelScheduleRoom.Domain.csproj",
       "projectName": "HotelScheduleRoom.Domain",
-      "projectPath": "C:\\Users\\Admin\\Downloads\\APISchedulerRoom\\HotelScheduleRoom.API\\HotelScheduleRoom.Domain\\HotelScheduleRoom.Domain.csproj",
+      "projectPath": "C:\\Users\\Admin\\Documents\\Workspace\\HotelSchedule\\WEBAPI\\HotelScheduleRoom.Domain\\HotelScheduleRoom.Domain.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Downloads\\APISchedulerRoom\\HotelScheduleRoom.API\\HotelScheduleRoom.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Documents\\Workspace\\HotelSchedule\\WEBAPI\\HotelScheduleRoom.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

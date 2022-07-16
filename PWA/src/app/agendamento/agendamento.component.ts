@@ -69,6 +69,8 @@ export class AgendamentoComponent implements OnInit {
           icon: 'success',
           title: "Rervation updated successfully!",
           showConfirmButton: true
+        }).then((result) =>{
+          this.childGrid.loadReservations();
         })
       }
     })
@@ -93,13 +95,17 @@ export class AgendamentoComponent implements OnInit {
           icon: 'error',
           title: result.msg,
           showConfirmButton: true
+        }).then((result) =>{
+          this.childGrid.loadReservations();
         })
       }
       else{
         Swal.fire({
           icon: 'success',
-          title: "Rervation complete!",
+          title: "Reservation complete!",
           showConfirmButton: true
+        }).then((result) =>{
+          this.childGrid.loadReservations();
         })
       }
     })
@@ -108,6 +114,6 @@ export class AgendamentoComponent implements OnInit {
     this.agendamentoForm.get('start').setValue('');
     this.agendamentoForm.get('end').setValue('');
     this.agendamentoForm.setErrors(null);
-    this.childGrid.loadReservations();
+
   }
 }
